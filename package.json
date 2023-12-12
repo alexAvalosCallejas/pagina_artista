@@ -1,6 +1,7 @@
 {
   "name": "pagina_artista",
   "private": true,
+  "homepage": "https://alexAvalosCallejas.github.io/pagina_artista/build",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
