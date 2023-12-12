@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
 import "../estilosComponentes/navBar.css";
-import {Link} from 'react-router-dom'
+import {Link, Outlet} from 'react-router-dom'
 
 import logoPagina from '../imagenes/logoMya.jpg';
 
@@ -25,12 +25,12 @@ export const Navegador = () => {
           <ul className="align-items-center lista navbar-nav">
             <li className="nav-item">
               <a className="nav-link active text-light a-link" aria-current="page" href="#">
-                <Link to={"Inicio"}>{"Inicio"}</Link>
+                <Link to="/Inicio">{"Inicio"}</Link>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-light a-link" href="#">
-                <Link to={"MyaLive"}>{"MYALIVE"}</Link>
+                <Link to="/MyaLive">{"MYALIVE"}</Link>
               </a>
             </li>
             <li className="nav-item text-light">
@@ -40,7 +40,7 @@ export const Navegador = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link text-light a-link" href="#">
-              <Link to={"VideosMusicales"}>{"Videos"}</Link>
+              <Link to={"/VideosMusicales"}>{"Videos"}</Link>
               </a>
             </li>
             <li className="nav-item dropdown">
@@ -54,6 +54,16 @@ export const Navegador = () => {
                 Más...
               </a>
               <ul className="dropdown-menu">
+                <li>
+                  <a className="dropdown-item" href="#">
+              <Link to={"SuenaMya"}>{"SUENA MYA: Album"}</Link>
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+              <Link to={"Hoy"}>{"Hoy: Album"}</Link>
+                  </a>
+                </li>
                 <li>
                   <a className="dropdown-item" href="#">
               <Link to={"NosotrosMya"}>{"Nosotros"}</Link>
@@ -85,6 +95,7 @@ export const Navegador = () => {
         </div>
       </div>
     </nav>
+    <Outlet/>
     </>
   );
 };

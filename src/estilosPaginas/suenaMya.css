@@ -1,0 +1,60 @@
+.suena-mya{
+    min-height: 100vh;
+    padding: 2em 1em;
+}
+.estilo-general{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.suena-mya-canciones{
+    width: 70%;
+    padding: 2em;
+    border-radius: 25px;
+    background: #0005;
+    color: #fff;
+}
+.suena-mya-canciones>h2{
+    width: 100%;
+    text-align: left;
+}
+.suena-mya-canciones>p{
+    text-align: justify;
+}
+
+/*Estilos puntuales*/
+.suena-mya-pr-cancion{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../imagenes/imagenes-albumes/suena-mya-ella-me-escribio.jpg");
+    background-size: cover;
+}
+.suena-mya-sg-cancion{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../imagenes/imagenes-albumes/suena-mya-saez.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.suena-mya-tc-cancion{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../imagenes/imagenes-albumes/suena-mya-migrantes.jpg");
+    background-size: cover;
+}
+.suena-mya-ct-cancion{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../imagenes/imagenes-albumes/suena-mya-online.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.suena-mya-qt-cancion{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../imagenes/imagenes-albumes/suena-mya-tu.jpg");
+    background-size: cover;
+}
+
+
+
+/*media screens*/
+@media screen and (min-width:300px) and (max-width:1024px){
+    .suena-mya{
+        background-position: center;
+    }
+    .suena-mya-canciones{
+        width: 100%;
+    }
+}

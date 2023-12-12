@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
 import '../estilosComponentes/carta.css'
 
-export const Carta = ({img, title, description, red, txtEnlace, subtitulo="MYA LIVE"}) => {
+export const Carta = ({img, title, description, red, txtEnlace, subtitulo="MYA LIVE:"}) => {
   return (
     <>
     <div className="carta card m-auto p-1 text-light">

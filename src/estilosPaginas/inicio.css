@@ -94,6 +94,7 @@
     }
     .main-title-mess{
         font-size: 1.2em;
+        text-shadow: 5px -2px 1px #000;
     }
     .cont-img{
         padding: 0;
@@ -101,5 +102,8 @@
     .tour-desc{
         padding: 1em;
         height: 20vh;
+    }
+    .desc-title{
+        text-align: center;
     }
 }

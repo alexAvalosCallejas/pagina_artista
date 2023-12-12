@@ -1,23 +1,23 @@
 import "../estilosPaginas/mensajes.css";
 
 const mensaje = function () {
-  let $contenedor = document.getElementById("mensajes");
-  let $nombre = document.createElement("h3");
-  let contenidoNombre = document.getElementById("nombre").value
-  $nombre.innerHTML = contenidoNombre;
-  let $mensajeCont = document.createElement("h5");
-  let contenidoMensaje = document.getElementById("mensaje").value;
-  $mensajeCont.innerText = contenidoMensaje;
-  let mensajesDiv = document.createElement("div");
-  /* bg-dark text-light p-3 */
-  mensajesDiv.classList.add("bg-dark");
-  mensajesDiv.classList.add("text-light");
-  mensajesDiv.classList.add("p-3");
-  mensajesDiv.style.overflow="hidden";
-  mensajesDiv.append($nombre);
-  mensajesDiv.append($mensajeCont);
-  $contenedor.append(mensajesDiv);
+  let $contenidoComentarios = document.getElementById("mensajes-box");
+  let $contNombre = document.createElement("H3");
+  let $contMensaje = document.createElement("P");
+  $contMensaje.style.display = "block";
+  let $comentarioBox = document.createElement("DIV");
+  $comentarioBox.style.margin = "1em 0";
+  $comentarioBox.classList.add("bg-dark");
+  $comentarioBox.classList.add("estilo-caja-comentario");
+  $contNombre.innerHTML += document.getElementById("nombre").value;
+  $contMensaje.innerHTML += document.getElementById("mensaje").value;
+  /*ingresar contenido */
+  $comentarioBox.append($contNombre);
+  $comentarioBox.append($contMensaje);
+  /*ingresar contenido al div principal*/
+  $contenidoComentarios.append($comentarioBox);
 
+  /*Vaciar input*/
   document.getElementById("nombre").value = "";
   document.getElementById("mensaje").value = "";
 };
@@ -47,9 +47,9 @@ export const Mensajes = () => {
                 </button>
               </form>
             </article>
-            <article className="mensaje-formulario col-sm-12 col-lg-4">
+            <article className="mensaje-formulario p-4 col-sm-12 col-lg-4">
               <h2>Ultimos mensajes:</h2>
-              <div id="mensajes" className="mensajes-box"></div>
+              <div id="mensajes-box" className="mensajes-box"></div>
             </article>
           </div>
         </div>
