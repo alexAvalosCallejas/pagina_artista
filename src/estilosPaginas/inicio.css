@@ -1,0 +1,105 @@
+.estilo-general{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-inicio{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.5)),url('../imagenes/imagenes-inicio/Spotify-Exclusive-1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main-title{
+    text-transform: uppercase;
+    font-style: italic;
+    color: #fff;
+    text-align: start;
+    font-weight: bolder;
+    line-height: 25px;
+    font-size: 3em;
+}
+.main-title-mess{
+    margin-left: 2em;
+    text-shadow: 10px -5px 1px #000;
+    font-size: 1.2em;
+}
+/*Algunas canciones*/
+.musica-cont{
+    padding: 2em 0;
+    background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.5)),url('../imagenes/imagenes-inicio/Spotify-Exclusive-1.webp');
+}
+.cont-canciones{
+    color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.canciones-title{
+    text-transform: uppercase;
+}
+.canciones-img-cont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.cont-img{
+    margin: 0 1em;
+    width: 100%;
+    padding: 2em;
+}
+.cont-img>img{
+    width: 100%;
+}
+/*Tour article*/
+.article-tour{
+    min-height: 100vh;
+}
+.tour-cont{
+    min-height: 100vh;
+}
+.tour-logo{
+    min-height: 100vh;
+}
+.logo-title{
+    font-size: 9.5em;
+}
+.estado{
+    text-decoration: line-through;
+}
+.desc-button{
+    padding: .5em 2em;
+    color: #fff;
+    font-size: 1.5em;
+    border: 3px solid #fff;
+    background-color: transparent;
+}
+
+/*Hover*/
+.desc-button:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+@media screen and (min-width:300px) and (max-width:840px){
+    .main-title{
+        font-size: 1.2em;
+        line-height: 15px;
+    }
+    .main-title-beg{
+        margin-left: -1.5em;
+    }
+    .main-title-mess{
+        font-size: 1.2em;
+    }
+    .cont-img{
+        padding: 0;
+    }
+    .tour-desc{
+        padding: 1em;
+        height: 20vh;
+    }
+}

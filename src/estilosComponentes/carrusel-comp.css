@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.carrusel-IMG{
+    padding: 0 5em;
+    width: 50%;
+}
+@media screen and (min-width:300px) and (max-width:840px){
+    .carrusel-IMG{
+        width: 100%;
+    }   
+}

@@ -1,0 +1,28 @@
+.musical{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url('../imagenes/fondos/palmas.jpg');
+    padding: 5em 2em;
+}
+.musical-titulo{
+    color: #fff;
+    text-align: center;
+}
+.container-box{
+    padding: 0 1em;
+}
+.container-video{
+    height: 50vh;
+    margin: 1em 0;
+}
+.container-video>iframe{
+    height: 100%;
+}
+.boton-videos{
+    padding: .5em 1.5em;
+}
+.cont-vid{
+    margin: 1em 0;
+}
+.link-videos{
+    width: 100%;
+    text-decoration: none;
+}

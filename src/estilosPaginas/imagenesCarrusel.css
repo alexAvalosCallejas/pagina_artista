@@ -1,0 +1,13 @@
+.estilo-articulo{
+    text-align: center;
+    padding: 1em;
+    color: #fff;
+    padding: 5em 0;
+}
+.album-mya{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url('../imagenes/fondos/hojas-de-palmera.jpg');
+}
+.exitos-mya{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url('../imagenes/fondos/hojas-de-palmera1.png');
+    background-position: center;
+}

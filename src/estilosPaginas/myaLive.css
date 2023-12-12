@@ -1,0 +1,82 @@
+.estilo-general{
+    display: grid;
+    place-content: center;
+}
+.portadas{
+    background-color: cadetblue;
+}
+.estilo-general>h2{
+    text-align: center;
+    font-family: 'Afacad', sans-serif;
+    font-size: 6em;
+    color: #fff;
+    background-color: #0005;
+}
+/*primera seccion*/
+.portada-principal{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../imagenes/portada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.primera-seccion{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.8)),url("../imagenes/mya-live-p4-song.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+/* Segunda seccion */
+.portada-segunda{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../imagenes/mya-live-p3-portada..jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.segunda-seccion{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.9)),url("../imagenes/mya-live-p3-song.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+/*Tercera seccion*/
+.portada-tercera{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../imagenes/mya-live-p2-portada.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.tercera-seccion{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.8)),url("../imagenes/mya-live-p2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+/*Cuarta seccion*/
+
+.portada-cuarta{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../imagenes/mya-live-p1-portada.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.cuarta-seccion{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.8)),url("../imagenes/mya-live-p1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+@media screen and (min-width:300px) and (max-width:700px) {
+    .estilo-general>h2{
+        font-size: 4em;
+    }
+}

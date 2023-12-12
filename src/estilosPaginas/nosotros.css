@@ -1,0 +1,30 @@
+.nosotros{
+    color: #fff;
+    padding: 2em;
+    background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url('../imagenes/imagenes-inicio/Spotify-Exclusive-1.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nosotros-titulo{
+    text-align: center;
+}
+.nosotros-articulo{
+    width: 70%;
+    margin: auto;
+}
+.nosotros-articulo>section{
+    text-align: justify;
+}
+.nos-imagen{
+    width: 50%;
+    margin: auto;
+}
+.nos-imagen>img{
+    width: 100%;
+}
+@media screen and (min-width:300px) and (max-width:700px){
+    .nosotros-articulo{
+        width: 100%;
+    }
+}

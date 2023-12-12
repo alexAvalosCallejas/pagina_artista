@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@500&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Afacad', sans-serif;
+}

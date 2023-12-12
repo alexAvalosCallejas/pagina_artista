@@ -1,0 +1,17 @@
+.creditos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+}
+.logo-creditos{
+    width: 100px;
+    height: 100px;
+}
+.logo-creditos>img{
+    width: 100%;
+}
+.desc-cont{
+    text-align: center;
+}

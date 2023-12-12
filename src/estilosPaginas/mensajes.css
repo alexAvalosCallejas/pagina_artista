@@ -1,0 +1,58 @@
+.mensaje{
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../imagenes/portada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2em;
+}
+.mensaje-titulo{
+    text-align: center;
+}
+.cont-form{
+    min-height: 50vh;
+}
+.mensaje-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulario>input{
+    margin: 1em 0;
+    width: 400px;
+    padding: .5em;
+    font-size: 1.2em;
+    outline: none;
+}
+.formulario>textarea{
+    display: block;
+    width: 400px;
+    height: 200px;
+    padding: .5em;
+    font-size: 1.2em;
+    outline: none;
+    resize: none;
+}
+.formulario>button{
+    margin: 1em 0;
+    padding: .2em 1.2em;
+    border: none;
+}
+.mensajes-box{
+    width: 100%;
+}
+
+@media screen and (min-width:300px) and (max-width:700px){
+    .mensaje-formulario{
+        width: 50%;
+        margin: 1em 0;
+    }
+}

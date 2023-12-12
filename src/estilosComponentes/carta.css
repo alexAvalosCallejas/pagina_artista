@@ -1,0 +1,9 @@
+.estilo-general{
+    display: grid;
+    place-content: center;
+}
+.carta{
+    width: 55%;
+    border-radius: 10px;
+    background-color: #0001;
+}
