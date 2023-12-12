@@ -14,7 +14,6 @@
     border-radius: 25px;
     background: #0005;
     color: #fff;
-    text-transform: lowercase;
 }
 .mya-hoy-canciones>h2{
     width: 100%;
@@ -22,6 +21,7 @@
 }
 .mya-hoy-canciones>p{
     text-align: justify;
+    text-transform: lowercase;
 }
 /*Estilos puntuales*/
 .mya-hoy-pr-cancion{
